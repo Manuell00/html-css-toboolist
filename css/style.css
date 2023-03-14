@@ -1,0 +1,84 @@
+/* Inserisco lo stile di default per la pagina */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:rgb(243, 239, 239) ;
+}
+
+header{
+    background-color: #fff;
+    
+}
+
+#header-logo {
+    height: 80px;
+    width: auto;
+    padding: 10px 15px;
+    position:relative
+    
+}
+
+#header-title {
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+
+}
+
+/* Inserisco lo stile del container e del main */
+
+#container {
+    width: 60%;
+    border-radius: 10px;
+    height: auto;
+    margin: 20px auto; 
+    background-color: #fff;
+}
+
+nav{
+    padding: 25px 50px;
+}
+
+.add-button{
+    padding: 8px;
+    width: auto;
+    height: 70px;
+    border-radius: 7px;
+}
+
+.blu-button{
+    background-color: lightskyblue;
+    color: #fff;
+    border: lightskyblue solid 1px;
+}
+
+.grey-button{
+    background-color: #fff;
+    color:gray;
+    border: gray solid 1px;
+}
+
+hr{
+    color: grey;
+}
+
+/* Inserisco lo stile del contenitore della todolist */
+
+.do-container{
+    padding: 35px 55px;
+}
+
+.bold-text-main{
+    color: black;
+    font-weight:800 ;
+    font-size: 25px;
+}
