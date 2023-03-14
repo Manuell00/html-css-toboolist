@@ -78,7 +78,27 @@ hr{
 }
 
 .bold-text-main{
+    display: block;
     color: black;
     font-weight:800 ;
     font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.todo-text-main{
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.editorial{
+    width: auto;
+    padding: 5px;
+    height: 20px;
+    border-radius: 7px;
+    background-color:lightskyblue ;
+    border: lightskyblue solid 1px;
+    color: #fff;
+    font-size: 13px;
 }
