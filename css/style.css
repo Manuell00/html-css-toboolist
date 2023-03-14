@@ -53,12 +53,14 @@ nav{
     width: auto;
     height: 70px;
     border-radius: 7px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .blu-button{
     background-color: lightskyblue;
     color: #fff;
     border: lightskyblue solid 1px;
+    
 }
 
 .grey-button{
@@ -82,7 +84,8 @@ hr{
     color: black;
     font-weight:800 ;
     font-size: 25px;
-    margin-bottom: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
 }
 
 .todo-text-main{
@@ -90,6 +93,7 @@ hr{
     padding-left: 25px;
     padding-right: 5px;
     font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .editorial{
@@ -101,4 +105,5 @@ hr{
     border: lightskyblue solid 1px;
     color: #fff;
     font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
 }
