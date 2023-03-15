@@ -1,32 +1,31 @@
 /* Inserisco lo stile di default per la pagina */
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 
-body{
-    background-color:rgb(243, 239, 239) ;
+body {
+    background-color: rgb(243, 239, 239);
 }
 
-header{
+header {
     background-color: #fff;
-    
+
 }
 
 #header-logo {
     height: 80px;
     width: auto;
     padding: 10px 15px;
-    position:relative
-    
+    position: relative
 }
 
 #header-title {
     font-size: 50px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     display: inline-block;
     position: absolute;
@@ -34,48 +33,57 @@ header{
 
 }
 
+
+
 /* Inserisco lo stile del container e del main */
 
 #container {
     width: 60%;
     border-radius: 10px;
     height: auto;
-    margin: 20px auto; 
+    margin: 20px auto;
     background-color: #fff;
 }
 
-nav{
+nav {
     padding: 25px 50px;
 }
 
-.add-button{
+
+
+
+/* Definisco una classe per aggiungere i bottoni nell'intestazione del main e successivamente delle classi per i rispettivi colori*/
+
+.add-button {
     padding: 8px;
     width: auto;
     height: 70px;
     border-radius: 7px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.blu-button{
-    background-color: lightskyblue;
+.blu-button {
+    background-color: rgb(29, 160, 241);
     color: #fff;
-    border: lightskyblue solid 1px;
-    
+    border: rgb(29, 160, 241) solid 1px;
+
 }
 
-.grey-button{
+.grey-button {
     background-color: #fff;
-    color:gray;
+    color: gray;
     border: gray solid 1px;
 }
 
-hr{
+hr {
     color: grey;
 }
 
+
+
 /* Inserisco lo stile del contenitore della todolist */
 
-.do-container{
+.do-container {
     padding: 35px 55px;
 }
 
@@ -83,34 +91,36 @@ hr{
     margin-bottom: 15px;
 }
 
-.bold-text-main{
+.bold-text-main {
     display: block;
     color: black;
-    font-weight:800 ;
+    font-weight: 800;
     font-size: 25px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
 }
 
-.todo-text-main{
+.todo-text-main {
     display: inline-block;
     padding-left: 10px;
     padding-right: 5px;
     font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#task2{
+#task2 {
     margin-top: 35px;
 }
 
-#task3{
+#task3 {
     margin-top: 35px;
 }
+
+
 
 /* Stilizzo i smboli di verificato e non */
 
-.verify{
+.verify {
     color: green;
     width: 50px;
     height: 50px;
@@ -121,7 +131,7 @@ hr{
 }
 
 
-.no-verify{
+.no-verify {
     color: red;
     width: 50px;
     height: 50px;
@@ -131,77 +141,79 @@ hr{
     border: red solid 1px;
 }
 
-/* Inserisco lo stile dei button */
 
-.editorial{
+
+/* Inserisco lo stile dei button */
+/* Avrei potuto definire una singola classe e poi abbinarci degli id per i rispettivi colori per rendere il codice migliore */
+
+.editorial {
     width: auto;
     padding: 5px;
     height: 20px;
-    border-radius: 7px;
-    background-color:lightskyblue ;
-    border: lightskyblue solid 1px;
+    border-radius: 10px;
+    background-color: rgb(29, 160, 241);
+    border: rgb(29, 160, 241) solid 1px;
     color: #fff;
     font-size: 13px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.q1-goals{
+.q1-goals {
     width: auto;
     padding: 5px;
     height: 20px;
-    border-radius: 7px;
-    background-color:darkviolet ;
+    border-radius: 10px;
+    background-color: darkviolet;
     border: darkviolet solid 1px;
     color: #fff;
     font-size: 13px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.recruiting{
+.recruiting {
     width: auto;
     padding: 5px;
     height: 20px;
-    border-radius: 7px;
-    background-color:green ;
+    border-radius: 10px;
+    background-color: green;
     border: green solid 1px;
     color: #fff;
     font-size: 13px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.mobile{
+.mobile {
     width: auto;
     padding: 5px;
     height: 20px;
-    border-radius: 7px;
-    background-color:orange ;
+    border-radius: 10px;
+    background-color: orange;
     border: orange solid 1px;
     color: #fff;
     font-size: 13px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.website{
+.website {
     width: auto;
     padding: 5px;
     height: 20px;
-    border-radius: 7px;
-    background-color:violet ;
+    border-radius: 10px;
+    background-color: violet;
     border: violet solid 1px;
     color: #fff;
     font-size: 13px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.sales{
+.sales {
     width: auto;
     padding: 5px;
     height: 20px;
-    border-radius: 7px;
-    background-color:lightseagreen ;
+    border-radius: 10px;
+    background-color: lightseagreen;
     border: lightgreen solid 1px;
     color: #fff;
     font-size: 13px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
