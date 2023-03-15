@@ -121,23 +121,25 @@ hr {
 /* Stilizzo i smboli di verificato e non */
 
 .verify {
+    display: inline-block;
     color: green;
-    width: 50px;
-    height: 50px;
-    padding: 4px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 50%;
     border: green solid 1px;
 }
 
 
 .no-verify {
+    display: inline-block;
     color: red;
-    width: 50px;
-    height: 50px;
-    padding: 4px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 50%;
     border: red solid 1px;
 }
 
